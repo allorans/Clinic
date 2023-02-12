@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(172, 235, 240);
+    padding: 0px 0px 30px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    
+}
+
+.headerPaginaPrincipal {
+    background-image: url(imgs/img02.png);
+    background-repeat: no-repeat;
+    width: 986;
+    height: 200px;
+    background-color: rgb(114, 209, 243);
+    min-height: 150px;
+    
+}
+
+.headerSobreClinica {
+  background-image: url(imgs/img01.png);
+  background-repeat: no-repeat;
+  width: 986;
+  height: 200px;
+  background-color: rgb(114, 209, 243);
+  min-height: 150px;
+  
+}
+
+.headerHorarioAtendimento {
+  background-image: url(imgs/img03.png);
+  background-repeat: no-repeat;
+  width: 986;
+  height: 200px;
+  background-color: rgb(114, 209, 243);
+  min-height: 150px;
+  
+}
+
+.headerContato {
+  background-image: url(imgs/img02.png);
+  background-repeat: no-repeat;
+  width: 986;
+  height: 200px;
+  background-color: rgb(114, 209, 243);
+  min-height: 150px;
+  
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(55, 111, 185);
+    min-height: 150px;
+    text-align: center;
+    color:white;
+
+}
+
+
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+  }
+
+
+  ul.menuUl {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    background-color: rgb(172, 235, 240);
+    font-family: Tahoma, Verdana, sans-serif;
+    height: 100%;
+    overflow: auto;
+  }
+
+  ul.contentIndex {
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: #485357;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  li a.active {
+    background-color: rgb(55, 111, 185);
+    color: white;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+
+  #ulList{
+    list-style-type:disc;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+
+  table, th, td {
+    text-align: center;
+    border: 1px solid  rgb(55, 111, 185);
+    border-collapse: collapse;
+  }
+
+  td.tabela:nth-child(even),tr.tabela2:nth-child(even){
+    background-color: rgb(230, 230, 230);
+  }
+
+  .titulosTabela{
+    background-color: rgb(55, 111, 185);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+  }
+
+
+  div.content1
+{
+  text-align: center;
+  float: center;
+  padding-top: 0px ;
+  padding-left: 130px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 395px;
+  width:30%;
+}
+
+div.content2
+{
+  text-align: left;
+  float: left;
+  padding: 10px;
+ 
+  align-items: left;
+  justify-content: left;
+  
+}
